@@ -1,0 +1,78 @@
+{
+  "generated": "2026-08-14",
+  "note": "Canonical assets are byte-identical copies of the published source binaries. renshaw-mark.svg is a first-party favicon created for this build.",
+  "assets": [
+    {
+      "file": "assets/time-leaves-cover.jpg",
+      "width": 1600,
+      "height": 2560,
+      "bytes": 902771,
+      "sha256": "5c6a3fc9f1c972ac57738bb4bd35f8f53653ff327086ce9fa7f975291baf0235",
+      "canonical": true
+    },
+    {
+      "file": "assets/time-leaves-cover.webp",
+      "width": 1000,
+      "height": 1600,
+      "bytes": 177056,
+      "sha256": "ac273bc2a29ab242f6d4dbd8092e28ab6db2facc509e79816c56485a9afb0cdc",
+      "canonical": true
+    },
+    {
+      "file": "assets/emperor-cover.jpg",
+      "width": 1600,
+      "height": 2560,
+      "bytes": 833857,
+      "sha256": "6cc3dd35f65fd06d6c4f2bf684e0a1cb74a245b58a79901d683ccdc6d7d4d564",
+      "canonical": true
+    },
+    {
+      "file": "assets/emperor-cover.webp",
+      "width": 1000,
+      "height": 1600,
+      "bytes": 199536,
+      "sha256": "04011b1f5e1ff0fc5b41f5ecdcd68328ee9b3d8c0d43c378aecbce3b5a4036fd",
+      "canonical": true
+    },
+    {
+      "file": "assets/cheap-strength-cover.jpg",
+      "width": 1600,
+      "height": 2560,
+      "bytes": 765026,
+      "sha256": "dabcb235359bba642b5466a5d683b1631705e0c02139223a29045aa7a3c2d131",
+      "canonical": true
+    },
+    {
+      "file": "assets/cheap-strength-cover.webp",
+      "width": 1000,
+      "height": 1600,
+      "bytes": 148610,
+      "sha256": "200c37e115e59f1f1ed7102dedad153151592e934e1a10a60bebfda2f5e356ae",
+      "canonical": true
+    },
+    {
+      "file": "assets/nj-renshaw-portrait-monochrome-v1.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1947125,
+      "sha256": "b070f59d7351aa402caeb30b35eb959d941552a5df30d16363522cce4509d8ea",
+      "canonical": true
+    },
+    {
+      "file": "assets/nj-renshaw-portrait-monochrome-v1.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 147836,
+      "sha256": "552ee18b7c503b5d2279ff8498e25e153bafdaa68b8884de666b11e5bc1d8f8f",
+      "canonical": true
+    },
+    {
+      "file": "assets/renshaw-mark.svg",
+      "width": 64,
+      "height": 64,
+      "bytes": 277,
+      "sha256": "308c29f2db1511408be25547f80b94460bbc524cf2232c90b05ada0c97eb07b4",
+      "canonical": false
+    }
+  ]
+}

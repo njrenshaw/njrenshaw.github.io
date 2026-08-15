@@ -1,0 +1,32 @@
+{
+  "date": "2026-08-14",
+  "target": "index.html",
+  "framework": "vanilla HTML and CSS, no build step",
+  "font_stack": "none yet (fresh sibling challenger directory)",
+  "palette": "none yet; brief pins cool near-white, dark ink, restrained cobalt, minute oxidized-red counterpoint (OKLCH)",
+  "motion": "none yet; brief pins one coherent motion idea, transform/opacity only, full reduced-motion fallback",
+  "spacing": "none yet; 4px semantic scale required",
+  "incumbent_anti_reference": {
+    "path": "../nj-renshaw-author-site",
+    "macrostructure": "Marquee Hero",
+    "nav": "N9 Edge-aligned minimal",
+    "footer": "Ft5 Statement",
+    "fonts": "Manrope + Figtree",
+    "note": "Authoritative for facts, copy intent, links, and assets. Anti-reference for structure and visual world. Never modified by this build."
+  },
+  "preserve": [
+    "canonical published cover binaries (SHA-256 pinned)",
+    "selected monochrome pen-name portrait binaries (SHA-256 pinned)",
+    "book titles, subtitles, context lines, descriptions, and the six Amazon edition links",
+    "truthful pen-name disclosure and Proton correspondence address",
+    "no analytics, cookies, forms, or tracking scripts"
+  ],
+  "introduce": [
+    "bespoke Examination Ledger macrostructure (split evidence docket + alternating records)",
+    "institutional masthead nav (N6 family) and Ft2 inline single-line footer",
+    "Schibsted Grotesk display + Spectral text + Spline Sans Mono annotation outlier",
+    "semantic OKLCH token system in tokens.css",
+    "one coherent motion idea: evidence resolves into place (IO, progressive enhancement)",
+    "metadata, JSON-LD graph, robots, sitemap, asset manifest, product and design records"
+  ]
+}
