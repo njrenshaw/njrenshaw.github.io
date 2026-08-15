@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://njrenshaw.github.io/sitemap.xml
+Sitemap: https://njrenshaw.com/sitemap.xml

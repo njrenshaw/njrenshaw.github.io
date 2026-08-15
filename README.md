@@ -1,7 +1,7 @@
 # N. J. Renshaw — official author site
 
 Static source for the official public page of N. J. Renshaw, published at
-[njrenshaw.github.io](https://njrenshaw.github.io/). The release preserves the
+[njrenshaw.com](https://njrenshaw.com/). The release preserves the
 approved Claude design and the final commercial copy.
 
 ## Published catalogue

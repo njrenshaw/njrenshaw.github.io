@@ -68,7 +68,7 @@ logos, or review quotations.
 - Correspondence: `njrenshaw.author@proton.me`
 - Amazon Author Page: `https://www.amazon.com/author/njrenshaw`
 - Goodreads author record: `https://www.goodreads.com/author/show/71479636.N_J_Renshaw`
-- Canonical URL: `https://njrenshaw.github.io/`
+- Canonical URL: `https://njrenshaw.com/`
 
 ## Privacy and trust constraints
 
