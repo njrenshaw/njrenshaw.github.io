@@ -79,13 +79,17 @@ logos, or review quotations.
 - Public description: `Case files on artificial intelligence, power, and the
   decisions nobody wants to own.`
 - Editorial line: `Intelligence can be delegated. Responsibility cannot.`
-- The first candidate is *Nobody Made the Decision: Five Case Files from the
-  Age of Automated Judgment*.
-- Candidate status must be stated truthfully. A private editorial-review PDF is
-  not a public release and must not be offered for download until human line,
-  source, privacy, and publication approval are all recorded.
-- The public page may announce a file in editorial review without implying that
-  it has been released, endorsed, validated by readers, or approved for KDP.
+- The first public reader edition is *Nobody Made the Decision: Five Case Files
+  from the Age of Automated Judgment*, R3.1, released 16 August 2026.
+- Public PDF: `downloads/nobody-made-the-decision.pdf`; SHA-256
+  `F1F8CFC3647C7593CFFDC2391DF3249C5B74236DC50F02526AB4A24AA0A9165B`.
+- The private editorial-review PDF is not deployed. The public PDF has distinct
+  metadata, publication language, AI-method disclosure, procedural-composite
+  disclosure, source links, and corrections language.
+- The landing page does not expose a direct download button. Confirmed
+  subscribers receive the PDF link through the EmailOctopus welcome flow.
+- Release does not imply endorsement, reader validation, commercial performance,
+  or KDP approval.
 
 ## Privacy and trust constraints
 
@@ -99,9 +103,9 @@ logos, or review quotations.
 - The Machine Witness list uses explicit adjacent consent language and double
   opt-in. Addresses are never scraped, borrowed, bought, or added manually
   without permission. Every mailing keeps the platform unsubscribe route.
-- No public ebook download or KDP Select-enrolled full-book reader magnet. A
-  separately written case file may become a reader magnet only after its own
-  editorial and publication approval.
+- No KDP Select-enrolled full-book reader magnet. *Nobody Made the Decision* is
+  separate original case-file work with its own recorded editorial and
+  publication approval.
 - No fabricated testimonials, ratings, review snippets, endorsements, press
   logos, reader counts, sales counts, bestseller claims, awards, metrics, or
   publication history. No fake scarcity, countdowns, popups, or manipulative

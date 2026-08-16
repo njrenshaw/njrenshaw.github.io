@@ -19,10 +19,11 @@ SHA-256 hashes.
 ## The Machine Witness
 
 `/witness/` is the public home for case files on artificial intelligence,
-power, and accountable judgment. The first file, *Nobody Made the Decision*, is
-identified honestly as being in editorial review; the private review PDF is not
-deployed. The page includes a voluntary EmailOctopus form with double opt-in,
-adjacent consent language, reCAPTCHA abuse protection, and a public privacy
+power, and accountable judgment. The first file, *Nobody Made the Decision*,
+was released on 16 August 2026 as a free R3.1 public reader edition. The private
+review PDF remains undeployed; the distinct public PDF is delivered to confirmed
+subscribers through the EmailOctopus welcome flow. The page includes adjacent
+consent language, double opt-in, reCAPTCHA abuse protection, and a public privacy
 notice at `/privacy/`.
 
 ## Design and implementation
