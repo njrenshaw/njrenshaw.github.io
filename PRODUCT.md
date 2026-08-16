@@ -20,15 +20,17 @@ after the build is verified. This file contains no private identity of any kind.
 ## Audience and job
 
 - Intelligent general readers interested in practical philosophy, Stoicism,
-  ethics, attention, power, discipline, self-command, and the gap between
-  declared values and actual conduct. They may know Marcus Aurelius or Seneca;
-  they may not know Renshaw. They arrive from Amazon, Goodreads, social
-  recommendations, search, or a direct link.
+  ethics, attention, power, discipline, artificial intelligence, society, and
+  the gap between declared values and actual conduct. They may know Marcus
+  Aurelius or Seneca; they may arrive through a contemporary AI question. They
+  may not know Renshaw. They arrive from Amazon, Goodreads, search, editorial
+  recommendations, a publication email, or a direct link.
 - **Primary job:** help a first-time visitor identify the right Renshaw book and
   reach its correct Amazon Kindle or paperback page with confidence.
 - Secondary jobs: establish a coherent, legitimate pen-name identity; explain
-  the intellectual through-line across the three books; provide truthful
-  author, Amazon, Goodreads, and correspondence routes.
+  the intellectual through-line across the three books and The Machine Witness;
+  provide truthful author, Amazon, Goodreads, correspondence, and voluntary
+  subscription routes.
 
 ## Tone
 
@@ -69,12 +71,37 @@ logos, or review quotations.
 - Amazon Author Page: `https://www.amazon.com/author/njrenshaw`
 - Goodreads author record: `https://www.goodreads.com/author/show/71479636.N_J_Renshaw`
 - Canonical URL: `https://njrenshaw.com/`
+- Editorial publication: `https://njrenshaw.com/witness/`
+- Privacy notice: `https://njrenshaw.com/privacy/`
+
+## The Machine Witness
+
+- Public description: `Case files on artificial intelligence, power, and the
+  decisions nobody wants to own.`
+- Editorial line: `Intelligence can be delegated. Responsibility cannot.`
+- The first candidate is *Nobody Made the Decision: Five Case Files from the
+  Age of Automated Judgment*.
+- Candidate status must be stated truthfully. A private editorial-review PDF is
+  not a public release and must not be offered for download until human line,
+  source, privacy, and publication approval are all recorded.
+- The public page may announce a file in editorial review without implying that
+  it has been released, endorsed, validated by readers, or approved for KDP.
 
 ## Privacy and trust constraints
 
-- No analytics, advertising pixels, cookies, fingerprinting, session replay,
-  tracking scripts, embedded third-party forms, or hidden identifiers.
-- No newsletter form, free-ebook download, sample download, or reader magnet.
+- No first-party analytics, advertising pixels, fingerprinting, session replay,
+  or hidden identifiers. Google Fonts is the authorised global typography
+  dependency. The only authorised third-party interactive embed is the
+  EmailOctopus subscription form on `/witness/`; it is documented in the public
+  privacy notice and must not be loaded globally. Google reCAPTCHA is authorised
+  only as the form's abuse-protection dependency and is disclosed in the same
+  notice.
+- The Machine Witness list uses explicit adjacent consent language and double
+  opt-in. Addresses are never scraped, borrowed, bought, or added manually
+  without permission. Every mailing keeps the platform unsubscribe route.
+- No public ebook download or KDP Select-enrolled full-book reader magnet. A
+  separately written case file may become a reader magnet only after its own
+  editorial and publication approval.
 - No fabricated testimonials, ratings, review snippets, endorsements, press
   logos, reader counts, sales counts, bestseller claims, awards, metrics, or
   publication history. No fake scarcity, countdowns, popups, or manipulative
@@ -85,6 +112,6 @@ logos, or review quotations.
 
 ## Deployment boundary
 
-Static HTML/CSS with minimal progressive-enhancement JS. Host: GitHub Pages at
-the canonical URL. The approved release is maintained in
-`njrenshaw/njrenshaw.github.io`.
+Static HTML/CSS with minimal progressive-enhancement JS. The EmailOctopus form
+is isolated to the publication page. Host: GitHub Pages at the canonical URL.
+The approved release is maintained in `njrenshaw/njrenshaw.github.io`.

@@ -1,7 +1,8 @@
 # DESIGN — the Examination Ledger
 
-This documents the system as built and verified on 2026-08-14 and approved for
-publication on 2026-08-15, from rendered evidence at
+This documents the system as built and verified on 2026-08-14, approved for
+publication on 2026-08-15, and extended on 2026-08-15 without changing its
+visual direction, from rendered evidence at
 320/375/414/640/768/1280/1440/1920 CSS px. It records
 what the page does, not what was aspired to. Product truth lives in PRODUCT.md.
 
@@ -43,18 +44,34 @@ gavels, stamps, folders, or faux documents anywhere.
    variation comes from scale and vertical offset, not mirroring. On single
    column widths every record leads with its cover (DOM order), so tab order
    and visual order agree.
-4. **Author**: paper-2 recessed band; display H2 “No spotless heroes.”; a small
+4. **The Machine Witness bridge**: a ruled two-column entry after the book
+   ledger. The left column names the publication and its honest editorial
+   status; the right column gives one Spectral proposition, one exact scope
+   paragraph, and one underlined route. It extends the examination metaphor
+   without adding cards, icons, dark-neon AI styling, generated imagery, or a
+   second design language.
+5. **Author**: paper-2 recessed band; display H2 “No spotless heroes.”; a small
    portrait plate (240px, hairline border, neutral caption
    “N. J. Renshaw · Author portrait”) beside the four-paragraph Spectral bio.
    The pen-name disclosure does not appear here — it appears exactly once, in
    the footer, per the author’s direction.
-5. **Correspondence**: an ink-ruled routes ledger — label left, destination
+6. **Correspondence**: an ink-ruled routes ledger — label left, destination
    right, hairline per row (Write to Renshaw / Amazon Author Page / Goodreads
    author record). External rows carry ↗ and screen-reader new-tab notes.
-6. **Close + footer** (Ft2): one modest closing line — “Read the book that
+7. **Close + footer** (Ft2): one modest closing line — “Read the record that
    argues back.” — anchored by the page’s single oxidized-red mark, then
    an ink hairline and a single footer line: the pen-name disclosure plus three
    text links. Not the incumbent’s Ft5 statement footer.
+
+## Publication pages
+
+`/witness/` and `/privacy/` reuse the exact typography, surfaces, ledger rules,
+square geometry, masthead, footer, focus treatment, and responsive grid. The
+publication page uses a claim/verdict opening, a compact data ledger, a ruled
+case-file preview, and one recessed subscription band. The privacy page is a
+plain legal ledger. Neither page introduces cards, decorative AI imagery,
+gradients, iconography, or an alternative color system. The EmailOctopus form
+is the sole third-party interactive surface and is confined to `/witness/`.
 
 ## Tokens (tokens.css is the source of truth)
 

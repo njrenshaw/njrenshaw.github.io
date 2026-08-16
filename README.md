@@ -1,8 +1,9 @@
 # N. J. Renshaw — official author site
 
-Static source for the official public page of N. J. Renshaw, published at
+Static source for the official public site of N. J. Renshaw, published at
 [njrenshaw.com](https://njrenshaw.com/). The release preserves the
-approved Claude design and the final commercial copy.
+approved Claude design while extending its editorial scope into artificial
+intelligence and society.
 
 ## Published catalogue
 
@@ -15,6 +16,15 @@ published cover files and the selected pen-name portrait are preserved
 byte-identically; `asset-manifest.json` records their dimensions, sizes, and
 SHA-256 hashes.
 
+## The Machine Witness
+
+`/witness/` is the public home for case files on artificial intelligence,
+power, and accountable judgment. The first file, *Nobody Made the Decision*, is
+identified honestly as being in editorial review; the private review PDF is not
+deployed. The page includes a voluntary EmailOctopus form with double opt-in,
+adjacent consent language, reCAPTCHA abuse protection, and a public privacy
+notice at `/privacy/`.
+
 ## Design and implementation
 
 Plain semantic HTML and CSS with a small progressive-enhancement script; no
@@ -26,9 +36,13 @@ Content remains complete and readable when JavaScript is unavailable.
 
 ## Privacy
 
-No analytics, advertising pixels, cookies, forms, downloads, or tracking
-scripts. N. J. Renshaw is identified truthfully as a pen name, without invented
-credentials or biography. Reader correspondence uses
+No first-party analytics, advertising pixels, or session replay. Google Fonts
+supplies the site's typefaces. The only third-party interactive embed is the
+EmailOctopus form on `/witness/`; that form also uses Google reCAPTCHA for abuse
+protection. These services are disclosed at `/privacy/`, and the form and
+reCAPTCHA are not loaded on the rest of the site. N. J. Renshaw is
+identified truthfully as a pen name, without invented credentials or
+biography. Reader correspondence uses
 `njrenshaw.author@proton.me`.
 
 ## Local preview
