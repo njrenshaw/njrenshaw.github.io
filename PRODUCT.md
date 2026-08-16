@@ -69,7 +69,7 @@ logos, or review quotations.
 
 - Correspondence: `njrenshaw.author@proton.me`
 - Amazon Author Page: `https://www.amazon.com/author/njrenshaw`
-- Goodreads author record: `https://www.goodreads.com/author/show/71479636.N_J_Renshaw`
+- Goodreads author record: `https://www.goodreads.com/author/show/71809583.N_J_Renshaw`
 - Canonical URL: `https://njrenshaw.com/`
 - Editorial publication: `https://njrenshaw.com/witness/`
 - Privacy notice: `https://njrenshaw.com/privacy/`
