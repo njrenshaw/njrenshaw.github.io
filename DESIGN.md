@@ -57,7 +57,8 @@ gavels, stamps, folders, or faux documents anywhere.
    the footer, per the author’s direction.
 6. **Correspondence**: an ink-ruled routes ledger — label left, destination
    right, hairline per row (Write to Renshaw / Amazon Author Page / Goodreads
-   author record). External rows carry ↗ and screen-reader new-tab notes.
+   author record / BookBub author profile). External rows carry ↗ and
+   screen-reader new-tab notes.
 7. **Close + footer** (Ft2): one modest closing line — “Read the record that
    argues back.” — anchored by the page’s single oxidized-red mark, then
    an ink hairline and a single footer line: the pen-name disclosure plus three
