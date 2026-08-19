@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-14",
-  "note": "Canonical assets are byte-identical copies of the published source binaries. renshaw-mark.svg is a first-party favicon created for this build.",
+  "generated": "2026-08-19",
+  "note": "Canonical assets are byte-identical copies of the production source binaries. renshaw-mark.svg is a first-party favicon created for this build.",
   "assets": [
     {
       "file": "assets/time-leaves-cover.jpg",
@@ -48,6 +48,14 @@
       "height": 1600,
       "bytes": 148610,
       "sha256": "200c37e115e59f1f1ed7102dedad153151592e934e1a10a60bebfda2f5e356ae",
+      "canonical": true
+    },
+    {
+      "file": "assets/completion-gap-cover.jpg",
+      "width": 1600,
+      "height": 2560,
+      "bytes": 725355,
+      "sha256": "1ca5faf533e54b8129a595c297b6d4cfce1378ebea1b6f33d242f4187968da10",
       "canonical": true
     },
     {

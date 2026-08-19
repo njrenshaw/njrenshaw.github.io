@@ -175,6 +175,8 @@ a:focus-visible, .skip-link:focus { outline: 3px solid var(--color-focus); outli
 
 .record-c .record-grid { padding-block: var(--space-2xl) var(--space-2xl); }
 
+.record-d .record-grid { padding-block: var(--space-2xl) var(--space-3xl); }
+
 .witness { border-block-start: var(--rule-hair) solid var(--color-rule-2); padding-block: var(--space-3xl); }
 
 .witness-layout { display: grid; grid-template-columns: minmax(0px, 1fr); gap: var(--space-2xl); align-items: start; }
@@ -325,6 +327,8 @@ a:focus-visible, .skip-link:focus { outline: 3px solid var(--color-focus); outli
   .record-b .record-cover { justify-self: end; width: 100%; max-width: 30rem; }
   .record-c .record-grid { grid-template-columns: minmax(0px, 7fr) minmax(0px, 4fr); column-gap: var(--space-3xl); padding-block: var(--space-2xl) var(--space-3xl); }
   .record-c .record-cover { justify-self: end; width: 100%; max-width: 19rem; margin-block-start: calc(-1 * var(--space-2xl)); }
+  .record-d .record-grid { grid-template-columns: minmax(0px, 5fr) minmax(0px, 6fr); column-gap: var(--space-3xl); padding-block: var(--space-3xl) var(--space-4xl); }
+  .record-d .record-cover { justify-self: start; width: 100%; max-width: 24rem; }
   .witness-layout { grid-template-columns: minmax(0px, 4fr) minmax(0px, 7fr); column-gap: var(--space-3xl); }
   .author-layout { grid-template-columns: repeat(12, minmax(0px, 1fr)); column-gap: var(--space-xl); }
   .author h2 { grid-column: 1 / 13; }

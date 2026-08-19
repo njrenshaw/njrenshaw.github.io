@@ -28,7 +28,8 @@ after the build is verified. This file contains no private identity of any kind.
 - **Primary job:** help a first-time visitor identify the right Renshaw book and
   reach its correct Amazon Kindle or paperback page with confidence.
 - Secondary jobs: establish a coherent, legitimate pen-name identity; explain
-  the intellectual through-line across the three books and The Machine Witness;
+  the intellectual through-line across the published backlist, the scheduled
+  release and The Machine Witness;
   provide truthful author, Amazon, Goodreads, correspondence, and voluntary
   subscription routes.
 
@@ -39,7 +40,7 @@ unsentimental. White, minimal, premium, intelligent, niche. Confident without
 hype. Closer to a meticulously art-directed cultural institution or museum
 monograph than a generic author template.
 
-## Catalogue — exactly three books, exactly six Amazon edition destinations
+## Catalogue — three published books and one scheduled release
 
 ### Time Leaves by the Side Door
 - Context line: `Seneca, Cross-Examined`
@@ -59,11 +60,21 @@ monograph than a generic author template.
 - Kindle: `https://www.amazon.com/dp/B0HF1PBTB7`
 - Paperback: `https://www.amazon.com/dp/B0HF1SP7L8`
 
-Descriptive copy source: the incumbent site’s `index.html`. Preserve meaning;
-make no new factual claim. Cover links map to the Kindle edition. Every book
-also exposes two unambiguous text links (Kindle, paperback). No affiliate tags,
-tracking parameters, prices, ratings, availability promises, badges, Amazon
-logos, or review quotations.
+### The Completion Gap
+- Subtitle: `Why Starting Is Easy—and How to Finish What Matters`
+- Release date: `21 August 2026`
+- Kindle preorder: `https://www.amazon.com/dp/B0HFCMS2GS`
+- Paperback ASIN: `B0HFDVK392`; its public detail page was not available when
+  checked on 19 August 2026, so the site must not link it yet.
+- Goodreads: `https://www.goodreads.com/book/show/256950457-the-completion-gap`
+
+Descriptive copy for the first three books comes from the incumbent site’s
+`index.html`. Completion Gap copy is bound to its owner-authorized KDP metadata
+and reader-positioning gate. Preserve meaning; make no new factual claim. Cover
+links map to the Kindle edition. Published books expose Kindle and paperback
+links; the scheduled release exposes only destinations verified public. No
+affiliate tags, tracking parameters, ratings, Amazon logos, review quotations,
+or unverified availability promises.
 
 ## Public routes
 

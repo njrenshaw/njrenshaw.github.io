@@ -1,16 +1,16 @@
 # DESIGN — the Examination Ledger
 
 This documents the system as built and verified on 2026-08-14, approved for
-publication on 2026-08-15, and extended on 2026-08-15 without changing its
+publication on 2026-08-15, and extended through 2026-08-19 without changing its
 visual direction, from rendered evidence at
 320/375/414/640/768/1280/1440/1920 CSS px. It records
 what the page does, not what was aspired to. Product truth lives in PRODUCT.md.
 
 ## The idea
 
-The page is an elegant intellectual examination room. Renshaw’s opening —
-*Three books. No clean alibis.* — states the commercial proposition; the three
-books are the evidence; the reader chooses which claim to examine. Every visual
+The page is an elegant intellectual examination room. Renshaw’s opening states
+the commercial proposition; the books are the evidence; the reader chooses
+which claim to examine. Every visual
 device serves that reading: ledger rules, evidence exhibits, examination
 designations, a single verdict counterpoint. It is not a courtroom theme: no
 gavels, stamps, folders, or faux documents anywhere.
@@ -24,7 +24,8 @@ gavels, stamps, folders, or faux documents anywhere.
 2. **The docket** (first viewport, 7/5 split at ≥60rem): left — the two-tone
    thesis H1 (muted claim, ink verdict, cobalt underscore), the lede, a quiet
    note line, and two actions (`Find your book` solid ink; `Meet N. J. Renshaw`
-   hairline). Right — the **evidence dock**: three cover exhibits at three
+   hairline). Right — the **evidence dock**: the three published-backlist cover
+   exhibits at three
    deliberate scales (Time Leaves ~5 cols, Emperor ~6 cols offset down,
    Cheap Strength ~4 cols indented), each with a Spline Sans Mono caption over a
    hairline. A vertical hairline separates dock from argument. At 1280×800 the
@@ -37,11 +38,13 @@ gavels, stamps, folders, or faux documents anywhere.
    left-aligned. Each record begins with a full-width hairline that **resolves
    into place** (scaleX draw + cobalt mark) as the reader reaches it. Record
    compositions share one grammar (title → subtitle → mono designation →
-   description → hook → two edition links) in three geometries: A cover-left
+   description → hook → destinations) across four records and three geometries:
+   A cover-left
    with the plate extended toward the page edge (the one grid-break); B
    argument-left with the largest cover right; C argument-left with a smaller
-   cover right, raised across its own rule. B and C share a side by design —
-   variation comes from scale and vertical offset, not mirroring. On single
+   cover right, raised across its own rule; D returns to the cover-left grammar
+   for the scheduled release. B and C share a side by design — variation comes
+   from scale and vertical offset, not mirroring. On single
    column widths every record leads with its cover (DOM order), so tab order
    and visual order agree.
 4. **The Machine Witness bridge**: a ruled two-column entry after the book

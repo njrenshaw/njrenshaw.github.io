@@ -11,10 +11,16 @@ intelligence and society.
 - *The Emperor’s Private Argument* — Stoicism for Power, Duty, Justice and Self-Command
 - *Cheap Strength* — Why Counterfeit Discipline Isn’t Enough
 
-Each title links to its Kindle and paperback editions on Amazon. The canonical
-published cover files and the selected pen-name portrait are preserved
-byte-identically; `asset-manifest.json` records their dimensions, sizes, and
-SHA-256 hashes.
+## Scheduled release
+
+- *The Completion Gap* — Why Starting Is Easy—and How to Finish What Matters
+  — Kindle pre-order live for 21 August 2026
+
+Each published title links to its Kindle and paperback editions on Amazon. The
+scheduled release links only to its verified-public Kindle preorder until the
+paperback detail page propagates. Canonical cover files and the selected
+pen-name portrait are preserved byte-identically; `asset-manifest.json` records
+their dimensions, sizes, and SHA-256 hashes.
 
 ## The Machine Witness
 
@@ -31,7 +37,7 @@ notice at `/privacy/`.
 Plain semantic HTML and CSS with a small progressive-enhancement script; no
 framework and no build step. The design system lives in `tokens.css` (OKLCH
 palette, type, spacing, motion tokens) and `site.css`. The structure is an
-“Examination Ledger”: a split evidence docket in the first viewport, then three
+“Examination Ledger”: a split evidence docket in the first viewport, then four
 individually art-directed book records, the author, and correspondence routes.
 Content remains complete and readable when JavaScript is unavailable.
 
