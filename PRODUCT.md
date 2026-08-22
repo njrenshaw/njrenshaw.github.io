@@ -64,6 +64,7 @@ monograph than a generic author template.
 - Subtitle: `Why Starting Is Easy—and How to Finish What Matters`
 - Release date: `21 August 2026`
 - Kindle: `https://www.amazon.com/dp/B0HFCMS2GS`
+- Kindle sample: `https://read.amazon.com/sample/B0HFCMS2GS?clientId=share`
 - Paperback: `https://www.amazon.com/dp/B0HFDVK392`
 - Goodreads: `https://www.goodreads.com/book/show/256950457-the-completion-gap`
 

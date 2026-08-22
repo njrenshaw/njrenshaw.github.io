@@ -17,6 +17,8 @@ Completion Gap links were promoted from preorder-only after both its Kindle and
 paperback detail pages were verified public on 22 August 2026. Canonical cover
 files and the selected pen-name portrait are preserved byte-identically;
 `asset-manifest.json` records their dimensions, sizes, and SHA-256 hashes.
+The Completion Gap also links to Amazon's live Kindle sample; the site does not
+host or redistribute the KDP Select-enrolled ebook.
 
 ## The Machine Witness
 
