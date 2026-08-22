@@ -112,9 +112,10 @@ or unverified availability promises.
   privacy notice and must not be loaded globally. Google reCAPTCHA is authorised
   only as the form's abuse-protection dependency and is disclosed in the same
   notice.
-- The Machine Witness list uses explicit adjacent consent language and double
-  opt-in. Addresses are never scraped, borrowed, bought, or added manually
-  without permission. Every mailing keeps the platform unsubscribe route.
+- The Machine Witness list uses explicit adjacent consent language, an
+  affirmatively required consent checkbox, and double opt-in. Addresses are
+  never scraped, borrowed, bought, or added manually without permission. Every
+  mailing keeps the platform unsubscribe route.
 - No KDP Select-enrolled full-book reader magnet. *Nobody Made the Decision* is
   separate original case-file work with its own recorded editorial and
   publication approval.

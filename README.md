@@ -27,8 +27,8 @@ power, and accountable judgment. The first file, *Nobody Made the Decision*,
 was released on 16 August 2026 as a free R3.1 public reader edition. The private
 review PDF remains undeployed; the distinct public PDF is delivered to confirmed
 subscribers through the EmailOctopus welcome flow. The page includes adjacent
-consent language, double opt-in, reCAPTCHA abuse protection, and a public privacy
-notice at `/privacy/`.
+consent language, an affirmatively required consent checkbox, double opt-in,
+reCAPTCHA abuse protection, and a public privacy notice at `/privacy/`.
 
 ## Design and implementation
 

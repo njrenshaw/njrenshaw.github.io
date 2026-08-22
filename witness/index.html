@@ -135,4 +135,25 @@
       </nav>
     </div>
   </footer>
+  <script>
+    (() => {
+      const host = document.querySelector(".emailoctopus-form");
+      if (!host) return;
+
+      const requireConsent = () => {
+        const consent = host.querySelector('input[name="consent"]');
+        if (!consent) return false;
+        consent.required = true;
+        consent.setAttribute("aria-required", "true");
+        return true;
+      };
+
+      if (!requireConsent()) {
+        const observer = new MutationObserver(() => {
+          if (requireConsent()) observer.disconnect();
+        });
+        observer.observe(host, { childList: true, subtree: true });
+      }
+    })();
+  </script>
 </body></html>
