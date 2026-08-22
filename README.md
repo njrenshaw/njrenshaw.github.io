@@ -10,17 +10,13 @@ intelligence and society.
 - *Time Leaves by the Side Door* — Practical Stoicism for Ordinary Days
 - *The Emperor’s Private Argument* — Stoicism for Power, Duty, Justice and Self-Command
 - *Cheap Strength* — Why Counterfeit Discipline Isn’t Enough
-
-## Scheduled release
-
 - *The Completion Gap* — Why Starting Is Easy—and How to Finish What Matters
-  — Kindle pre-order live for 21 August 2026
 
 Each published title links to its Kindle and paperback editions on Amazon. The
-scheduled release links only to its verified-public Kindle preorder until the
-paperback detail page propagates. Canonical cover files and the selected
-pen-name portrait are preserved byte-identically; `asset-manifest.json` records
-their dimensions, sizes, and SHA-256 hashes.
+Completion Gap links were promoted from preorder-only after both its Kindle and
+paperback detail pages were verified public on 22 August 2026. Canonical cover
+files and the selected pen-name portrait are preserved byte-identically;
+`asset-manifest.json` records their dimensions, sizes, and SHA-256 hashes.
 
 ## The Machine Witness
 

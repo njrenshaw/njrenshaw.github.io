@@ -40,7 +40,7 @@ unsentimental. White, minimal, premium, intelligent, niche. Confident without
 hype. Closer to a meticulously art-directed cultural institution or museum
 monograph than a generic author template.
 
-## Catalogue — three published books and one scheduled release
+## Catalogue — four published books
 
 ### Time Leaves by the Side Door
 - Context line: `Seneca, Cross-Examined`
@@ -63,16 +63,15 @@ monograph than a generic author template.
 ### The Completion Gap
 - Subtitle: `Why Starting Is Easy—and How to Finish What Matters`
 - Release date: `21 August 2026`
-- Kindle preorder: `https://www.amazon.com/dp/B0HFCMS2GS`
-- Paperback ASIN: `B0HFDVK392`; its public detail page was not available when
-  checked on 19 August 2026, so the site must not link it yet.
+- Kindle: `https://www.amazon.com/dp/B0HFCMS2GS`
+- Paperback: `https://www.amazon.com/dp/B0HFDVK392`
 - Goodreads: `https://www.goodreads.com/book/show/256950457-the-completion-gap`
 
 Descriptive copy for the first three books comes from the incumbent site’s
 `index.html`. Completion Gap copy is bound to its owner-authorized KDP metadata
 and reader-positioning gate. Preserve meaning; make no new factual claim. Cover
 links map to the Kindle edition. Published books expose Kindle and paperback
-links; the scheduled release exposes only destinations verified public. No
+links only after both destinations have been verified public. No
 affiliate tags, tracking parameters, ratings, Amazon logos, review quotations,
 or unverified availability promises.
 
