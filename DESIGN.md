@@ -23,11 +23,10 @@ gavels, stamps, folders, or faux documents anywhere.
    incumbent’s N9 edge-aligned nav.
 2. **The docket** (first viewport, 7/5 split at ≥60rem): left — the two-tone
    thesis H1 (muted claim, ink verdict, cobalt underscore), the lede, a quiet
-   note line, and two actions (`Find your book` solid ink; `Meet N. J. Renshaw`
-   hairline). Right — the **evidence dock**: the three published-backlist cover
-   exhibits at three
+   note line, and a direct launch route beside the wider book ledger. Right —
+   the **evidence dock**: three published cover exhibits at three
    deliberate scales (Time Leaves ~5 cols, Emperor ~6 cols offset down,
-   Cheap Strength ~4 cols indented), each with a Spline Sans Mono caption over a
+   The Completion Gap ~4 cols indented), each with a Spline Sans Mono caption over a
    hairline. A vertical hairline separates dock from argument. At 1280×800 the
    whole composition — name, thesis, lede, both actions, all three exhibits with
    captions — reads without scrolling. The smallest exhibit is a deliberate
@@ -43,7 +42,7 @@ gavels, stamps, folders, or faux documents anywhere.
    with the plate extended toward the page edge (the one grid-break); B
    argument-left with the largest cover right; C argument-left with a smaller
    cover right, raised across its own rule; D returns to the cover-left grammar
-   for the scheduled release. B and C share a side by design — variation comes
+   for the newest release. B and C share a side by design — variation comes
    from scale and vertical offset, not mirroring. On single
    column widths every record leads with its cover (DOM order), so tab order
    and visual order agree.
@@ -69,13 +68,20 @@ gavels, stamps, folders, or faux documents anywhere.
 
 ## Publication pages
 
-`/witness/` and `/privacy/` reuse the exact typography, surfaces, ledger rules,
+`/witness/`, `/privacy/`, and `/the-completion-gap/` reuse the exact typography, surfaces, ledger rules,
 square geometry, masthead, footer, focus treatment, and responsive grid. The
 publication page uses a claim/verdict opening, a compact data ledger, a ruled
 case-file preview, and one recessed subscription band. The privacy page is a
 plain legal ledger. Neither page introduces cards, decorative AI imagery,
 gradients, iconography, or an alternative color system. The EmailOctopus form
 is the sole third-party interactive surface and is confined to `/witness/`.
+
+The Completion Gap page extends the system as an **Acceptance Ledger**. Its
+first viewport pairs the canonical cover and publication record with the exact
+title, governing tension, Amazon sample, and Kindle route. Below it, ruled rows
+make Produced → Checked → Accepted → Usable inspectable; reader outcomes, the
+Sarah/Daniel working-week pressure test, and retailer/community destinations
+follow without cards, testimonials, scores, or a second visual language.
 
 ## Tokens (tokens.css is the source of truth)
 

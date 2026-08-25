@@ -28,7 +28,7 @@ after the build is verified. This file contains no private identity of any kind.
 - **Primary job:** help a first-time visitor identify the right Renshaw book and
   reach its correct Amazon Kindle or paperback page with confidence.
 - Secondary jobs: establish a coherent, legitimate pen-name identity; explain
-  the intellectual through-line across the published backlist, the scheduled
+  the intellectual through-line across the published backlist, the newest
   release and The Machine Witness;
   provide truthful author, Amazon, Goodreads, correspondence, and voluntary
   subscription routes.
@@ -83,6 +83,7 @@ or unverified availability promises.
 - Goodreads author record: `https://www.goodreads.com/author/show/71809583.N_J_Renshaw`
 - BookBub author profile: `https://www.bookbub.com/authors/n-j-renshaw`
 - Canonical URL: `https://njrenshaw.com/`
+- The Completion Gap: `https://njrenshaw.com/the-completion-gap/`
 - Editorial publication: `https://njrenshaw.com/witness/`
 - Privacy notice: `https://njrenshaw.com/privacy/`
 
@@ -132,3 +133,9 @@ or unverified availability promises.
 Static HTML/CSS with minimal progressive-enhancement JS. The EmailOctopus form
 is isolated to the publication page. Host: GitHub Pages at the canonical URL.
 The approved release is maintained in `njrenshaw/njrenshaw.github.io`.
+
+The `/the-completion-gap/` route is the canonical reader-facing landing page
+for the fourth published book. It inherits the Examination Ledger, uses only
+owner-approved book mechanisms and destinations, and puts the Amazon sample
+before the purchase route. During the launch window, the homepage may promote
+this route directly without changing the site's visual identity.

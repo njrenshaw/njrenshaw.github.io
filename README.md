@@ -20,6 +20,10 @@ files and the selected pen-name portrait are preserved byte-identically;
 The Completion Gap also links to Amazon's live Kindle sample; the site does not
 host or redistribute the KDP Select-enrolled ebook.
 
+Its dedicated reader route is `/the-completion-gap/`: an acceptance ledger for
+the book's governing problem, practical outcomes, canonical cover, Amazon
+sample, verified editions, Goodreads record, and BookBub author profile.
+
 ## The Machine Witness
 
 `/witness/` is the public home for case files on artificial intelligence,

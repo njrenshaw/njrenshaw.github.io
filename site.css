@@ -167,6 +167,8 @@ a:focus-visible, .skip-link:focus { outline: 3px solid var(--color-focus); outli
 @media (hover: hover) and (pointer: fine) {
   .record-cover:hover { transform: translateY(-4px); }
   .record-cover:active { transform: translateY(0px); }
+  .book-cover-plate:hover { transform: translateY(-4px); }
+  .book-cover-plate:active { transform: translateY(0px); }
 }
 
 .record-a .record-grid { padding-block: var(--space-2xl) var(--space-3xl); }
@@ -267,6 +269,72 @@ a:focus-visible, .skip-link:focus { outline: 3px solid var(--color-focus); outli
 
 .publication-index strong { color: var(--color-ink); font-family: var(--font-display); font-weight: 500; }
 
+.book-page { min-height: 70vh; }
+
+.book-hero { padding-block: var(--space-2xl) var(--space-3xl); }
+
+.book-hero-grid { display: grid; grid-template-columns: minmax(0px, 1fr); gap: var(--space-2xl); align-items: start; }
+
+.book-hero-copy { display: grid; justify-items: start; gap: var(--space-lg); }
+
+.book-hero h1 { display: grid; gap: var(--space-sm); max-width: 18ch; font-size: var(--text-display); line-height: 1.04; text-wrap: balance; }
+
+.book-opening { max-width: 32ch; color: var(--color-ink); font-size: var(--text-statement); line-height: 1.36; text-wrap: balance; }
+
+.book-lede { max-width: 52ch; color: var(--color-ink-2); font-size: var(--text-md); line-height: 1.55; }
+
+.book-evidence { display: grid; justify-items: center; gap: var(--space-xl); min-width: 0px; }
+
+.book-cover-plate { display: block; width: min(76%, 20rem); border: var(--rule-hair) solid var(--color-rule-2); background: var(--color-paper-2); line-height: 0; transition: border-color var(--dur-short) var(--ease-out), transform var(--dur-short) var(--ease-out); }
+
+.book-cover-plate img { width: 100%; height: auto; aspect-ratio: 5 / 8; object-fit: contain; }
+
+.book-cover-plate:focus-visible { outline: 3px solid var(--color-focus); outline-offset: 4px; }
+
+.book-evidence .publication-index { width: 100%; }
+
+.book-definition { border-block-start: var(--rule-strong) solid var(--color-ink); padding-block: var(--space-3xl); }
+
+.book-definition-grid, .state-layout, .outcomes-layout, .book-week-layout, .book-destinations-layout { display: grid; grid-template-columns: minmax(0px, 1fr); gap: var(--space-2xl); align-items: start; }
+
+.book-definition h2, .state-section h2, .outcomes-section h2, .book-week h2, .book-destinations h2 { max-width: 16ch; font-size: clamp(var(--text-xl), 3vw, var(--text-2xl)); line-height: 1.06; }
+
+.book-definition-copy, .book-week-copy { display: grid; justify-items: start; gap: var(--space-lg); max-width: 62ch; color: var(--color-ink-2); font-size: var(--text-md); line-height: 1.58; }
+
+.state-section { border-block-start: var(--rule-hair) solid var(--color-rule-2); background: var(--color-paper-2); padding-block: var(--space-3xl); }
+
+.state-intro { display: grid; gap: var(--space-lg); }
+
+.state-intro p { max-width: 39ch; color: var(--color-muted); }
+
+.state-ledger { margin: 0px; border-block-start: var(--rule-hair) solid var(--color-ink); }
+
+.state-ledger > div { display: grid; grid-template-columns: minmax(0px, 2fr) minmax(0px, 3fr); gap: var(--space-lg); padding-block: var(--space-md); border-block-end: var(--rule-hair) solid var(--color-rule); }
+
+.state-ledger dt { color: var(--color-ink); font-family: var(--font-display); font-weight: 500; }
+
+.state-ledger dd { margin: 0px; color: var(--color-muted); }
+
+.outcomes-section { border-block-start: var(--rule-hair) solid var(--color-rule-2); padding-block: var(--space-3xl); }
+
+.outcome-ledger { border-block-start: var(--rule-hair) solid var(--color-ink); }
+
+.outcome-ledger li { display: grid; gap: var(--space-xs); padding-block: var(--space-lg); border-block-end: var(--rule-hair) solid var(--color-rule-2); }
+
+.outcome-ledger strong { color: var(--color-ink); font-family: var(--font-display); font-size: var(--text-base); font-weight: 500; }
+
+.outcome-ledger span { max-width: 58ch; color: var(--color-muted); }
+
+.book-week { border-block-start: var(--rule-hair) solid var(--color-rule-2); background: var(--color-paper-2); padding-block: var(--space-3xl); }
+
+.book-week h2 { margin-block-start: var(--space-md); max-width: 20ch; }
+
+.book-destinations { border-block-start: var(--rule-hair) solid var(--color-rule-2); padding-block: var(--space-3xl); }
+
+.book-destinations-layout > div { display: grid; gap: var(--space-lg); }
+
+.book-destinations-layout > div > p { max-width: 38ch; color: var(--color-muted); }
+
 .case-file-preview { border-block-start: var(--rule-strong) solid var(--color-ink); padding-block: var(--space-3xl); }
 
 .case-file-layout, .subscription-layout, .legal-layout { display: grid; grid-template-columns: minmax(0px, 1fr); gap: var(--space-2xl); align-items: start; }
@@ -337,6 +405,11 @@ a:focus-visible, .skip-link:focus { outline: 3px solid var(--color-focus); outli
   .correspondence-layout { grid-template-columns: minmax(0px, 4fr) minmax(0px, 7fr); column-gap: var(--space-3xl); }
   .publication-hero-grid { grid-template-columns: minmax(0px, 7fr) minmax(0px, 4fr); column-gap: var(--space-3xl); }
   .case-file-layout, .subscription-layout, .legal-layout { grid-template-columns: minmax(0px, 4fr) minmax(0px, 7fr); column-gap: var(--space-3xl); }
+  .book-hero-grid { grid-template-columns: minmax(0px, 7fr) minmax(18rem, 4fr); column-gap: var(--space-3xl); }
+  .book-evidence { border-inline-start: var(--rule-hair) solid var(--color-rule-2); padding-inline-start: var(--space-xl); }
+  .book-cover-plate { width: min(100%, 20rem); }
+  .book-definition-grid, .state-layout, .outcomes-layout, .book-week-layout, .book-destinations-layout { grid-template-columns: minmax(0px, 4fr) minmax(0px, 7fr); column-gap: var(--space-3xl); }
+  .outcome-ledger li { grid-template-columns: minmax(12rem, 4fr) minmax(0px, 7fr); column-gap: var(--space-xl); }
   .close { padding-block: var(--space-3xl); }
 }
 

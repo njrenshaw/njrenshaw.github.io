@@ -2,11 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://njrenshaw.com/</loc>
+    <lastmod>2026-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://njrenshaw.com/the-completion-gap/</loc>
+    <lastmod>2026-08-25</lastmod>
   </url>
   <url>
     <loc>https://njrenshaw.com/witness/</loc>
+    <lastmod>2026-08-16</lastmod>
   </url>
   <url>
     <loc>https://njrenshaw.com/privacy/</loc>
+    <lastmod>2026-08-16</lastmod>
   </url>
 </urlset>
