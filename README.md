@@ -15,7 +15,8 @@ intelligence and society.
 Each published title links to its Kindle and paperback editions on Amazon. The
 Completion Gap links were promoted from preorder-only after both its Kindle and
 paperback detail pages were verified public on 22 August 2026. Canonical cover
-files and the selected pen-name portrait are preserved byte-identically;
+files and the owner-approved real author photograph are preserved with recorded
+provenance;
 `asset-manifest.json` records their dimensions, sizes, and SHA-256 hashes.
 The Completion Gap also links to Amazon's live Kindle sample; the site does not
 host or redistribute the KDP Select-enrolled ebook.
