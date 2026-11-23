@@ -4,7 +4,7 @@
 const noraChannels = {
   buttondownUsername: "",
   newsletterPrivacyUrl: "",
-  reddit: "",
+  reddit: "https://www.reddit.com/user/NoraBetweenCities/",
   fanvue: "",
 };
 
