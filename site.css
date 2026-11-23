@@ -244,9 +244,93 @@ h1, h2 { font-style: normal; min-width: 0; overflow-wrap: anywhere; }
 
 .films { margin-block: clamp(3.1rem, 9vw, 7rem); }
 .section-heading { padding-block: var(--space-3) var(--space-4); border-top: 1px solid var(--rule); }
-.section-heading h2, .contact h2 {
+.section-heading h2, .contact h2, .city-notes h2, .beyond-films h2 {
   font: 600 clamp(2.2rem, 6vw, 4.05rem)/1.05 var(--display);
   letter-spacing: -.025em;
+}
+.city-notes {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: start;
+  gap: var(--space-6);
+  margin-block-start: clamp(2.75rem, 7vw, 5rem);
+  padding-block: clamp(1.5rem, 4.5vw, 3rem);
+  border-block: 1px solid var(--rule);
+}
+.city-notes-copy p { max-inline-size: 34ch; margin-block-start: var(--space-2); color: var(--muted); }
+.email-label { display: block; margin-block-end: var(--space-2); font-size: .9rem; font-weight: 600; }
+.signup-fields { display: flex; flex-wrap: wrap; gap: var(--space-2); }
+.signup-fields input {
+  flex: 1 1 12rem;
+  min-inline-size: 0;
+  min-block-size: 2.875rem;
+  padding-inline: var(--space-3);
+  border: 1px solid var(--muted);
+  border-radius: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: inherit;
+}
+.signup-fields input::placeholder { color: var(--muted); }
+.signup-fields button {
+  justify-content: center;
+  flex: 0 1 auto;
+  border: 0;
+  border-radius: 0;
+  font-family: var(--sans);
+  cursor: pointer;
+}
+.signup-terms { margin-block-start: var(--space-2); color: var(--muted); font-size: .82rem; }
+.signup-terms a { text-underline-offset: .24em; }
+.preview-confirmation .text-link {
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+  padding: 0;
+  font-family: var(--sans);
+  text-decoration: underline;
+  text-underline-offset: .22em;
+  cursor: pointer;
+}
+.signup-preview-tools {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+  margin-block-start: var(--space-4);
+  border-top: 1px solid var(--rule);
+  padding-block-start: var(--space-3);
+  color: var(--muted);
+  font-size: .82rem;
+}
+.signup-preview-tools select {
+  min-block-size: 2.75rem;
+  padding-inline: var(--space-2);
+  border: 1px solid var(--rule);
+  border-radius: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: inherit;
+}
+.signup-preview-tools p, .signup-preview-tools code { flex-basis: 100%; }
+.signup-preview-tools code { overflow-wrap: anywhere; color: var(--ink); }
+.beyond-films { margin-block-end: clamp(3rem, 7vw, 6rem); }
+.beyond-films h2 { margin-block-end: var(--space-4); }
+.platform-list { list-style: none; margin: 0; padding: 0; }
+.platform-list li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-2) var(--space-4);
+  align-items: center;
+  border-top: 1px solid var(--rule);
+  padding-block: var(--space-4);
+}
+.platform-list li:last-child { border-bottom: 1px solid var(--rule); }
+.platform-list h3 { margin: 0 0 var(--space-1); font: 600 1.5rem/1.15 var(--display); }
+.platform-list p, .platform-status { color: var(--muted); }
+.platform-status { font-size: .82rem; }
+@media (max-width: 26rem) {
+  .signup-fields button { flex-basis: 100%; }
 }
 .film-grid {
   list-style: none;
@@ -336,6 +420,7 @@ h1, h2 { font-style: normal; min-width: 0; overflow-wrap: anywhere; }
 
 @media (min-width: 36rem) {
   .section-heading { display: flex; align-items: baseline; justify-content: space-between; }
+  .platform-list li { grid-template-columns: minmax(0, 1fr) auto; }
   .film-grid { gap: var(--space-8) var(--space-4); }
   .contact { grid-template-columns: minmax(0, 10rem) minmax(0, 1fr); gap: var(--space-8); }
   .portrait { inline-size: 10rem; block-size: 10rem; }
@@ -347,8 +432,9 @@ h1, h2 { font-style: normal; min-width: 0; overflow-wrap: anywhere; }
   .masthead-brand img { width: 1.45rem; height: 2.35rem; }
   .opening { grid-template-columns: minmax(0, .91fr) minmax(0, 1.09fr); }
   .opening-frame { height: clamp(25rem, 46vw, 32rem); }
+  .opening-frame img { object-position: center 30%; }
   .opening-links { margin-top: var(--space-8); }
-
+  .city-notes { grid-template-columns: minmax(0, .91fr) minmax(0, 1.09fr); gap: clamp(1.5rem, 5vw, 4rem); }
 }
 @media (min-width: 60rem) {
   .film-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }

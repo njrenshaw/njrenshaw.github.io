@@ -9,8 +9,13 @@
   <meta property="og:site_name" content="Nora Between Cities">
   <meta property="og:title" content="Nora Between Cities">
   <meta property="og:description" content="City breaks. Dance breaks. Short dance films by Nora.">
+  <meta property="og:url" content="https://norabetweencities.com/">
+  <meta property="og:image" content="https://norabetweencities.com/assets/youtube-banner.png">
+  <meta property="og:image:alt" content="Nora Between Cities wordmark and dancing silhouette">
+  <link rel="canonical" href="https://norabetweencities.com/">
   <link rel="icon" href="assets/nora-icon.png" type="image/png">
   <link rel="stylesheet" href="site.css">
+  <script src="newsletter.js" defer></script>
   <title>Nora Between Cities | Dance Films</title>
 </head>
 <body>
@@ -38,6 +43,7 @@
         <p>Short dance films, one place at a time.</p>
         <div class="opening-links">
           <a class="button" href="https://www.youtube.com/shorts/RkDpoYacyPw">Watch Body Language <span class="arrow arrow-external" aria-hidden="true"></span></a>
+          <a class="text-link" href="#city-notes" id="city-notes-link" hidden>Get the next film by email</a>
         </div>
       </div>
 
@@ -51,6 +57,42 @@
         </a>
         <figcaption><span>Body Language</span><span>Lincoln Center, New York</span></figcaption>
       </figure>
+    </section>
+
+    <section class="city-notes" id="city-notes" aria-labelledby="city-notes-title" hidden>
+      <div class="city-notes-copy">
+        <h2 id="city-notes-title">City Notes</h2>
+        <p>Get Nora’s next dance film and a note about the place that inspired it.</p>
+      </div>
+      <div>
+        <form id="city-notes-form" method="post">
+          <label class="email-label" for="city-notes-email">Email address</label>
+          <div class="signup-fields">
+            <input id="city-notes-email" name="email" type="email" autocomplete="email" maxlength="254" placeholder="you@example.com" required>
+            <button class="button" type="submit">Send me City Notes</button>
+          </div>
+          <input type="hidden" name="embed" value="1">
+          <input type="hidden" name="metadata__signup_source" value="direct">
+          <p class="signup-terms">Free to join. Confirm by email. Unsubscribe anytime. <a id="city-notes-privacy" hidden>Privacy</a></p>
+        </form>
+        <div class="preview-confirmation" id="preview-confirmation" hidden>
+          <p id="preview-status" role="status">Check your inbox to confirm your subscription.</p>
+          <button class="text-link" id="preview-confirm" type="button">Simulate email confirmation</button>
+          <button class="text-link" id="preview-reset" type="button" hidden>Try another signup</button>
+        </div>
+        <div class="signup-preview-tools" id="signup-preview-tools" hidden>
+          <label for="signup-preview-source">Preview a visit from</label>
+          <select id="signup-preview-source">
+            <option value="facebook">Facebook</option>
+            <option value="youtube">YouTube</option>
+            <option value="instagram">Instagram</option>
+            <option value="reddit">Reddit</option>
+            <option value="direct">Direct</option>
+          </select>
+          <p>Preview only. No emails are saved or sent.</p>
+          <code id="signup-preview-link" aria-live="polite"></code>
+        </div>
+      </div>
     </section>
 
     <section class="films" id="films" aria-labelledby="films-title">
@@ -87,6 +129,28 @@
             <span class="film-title">Bam Bam <span class="arrow arrow-external" aria-hidden="true"></span></span>
             <span class="film-location">Top of the Rock, New York</span>
           </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="beyond-films" id="beyond-films" aria-labelledby="beyond-title" hidden>
+      <h2 id="beyond-title">Beyond the films</h2>
+      <ul class="platform-list">
+        <li id="reddit-platform" hidden>
+          <div>
+            <h3>Talk cities on Reddit</h3>
+            <p>Suggest the next location and join the conversation about how the films come together.</p>
+          </div>
+          <a class="text-link" id="reddit-profile" hidden>Visit Reddit <span class="arrow arrow-external" aria-hidden="true"></span></a>
+          <span class="platform-status" id="reddit-status" hidden>Profile in setup</span>
+        </li>
+        <li id="fanvue-platform" hidden>
+          <div>
+            <h3>Join Nora on Fanvue</h3>
+            <p>Paid membership for extra cuts, behind-the-scenes notes and early access. 18+ platform.</p>
+          </div>
+          <a class="text-link" id="fanvue-profile" hidden>Visit Fanvue <span class="arrow arrow-external" aria-hidden="true"></span></a>
+          <span class="platform-status" id="fanvue-status" hidden>Membership in setup</span>
         </li>
       </ul>
     </section>
